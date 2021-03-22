@@ -38,7 +38,7 @@ Setting up a new RaspiKey Device
 2. Download the latest Raspios headless release **2020-08-20-raspios-buster-armhf-lite-headless.xz** from [here](https://github.com/samartzidis/RaspiKey/releases/tag/2020-08-20-raspios-buster-armhf-lite-headless).
 3. Use **Etcher** to write the **2020-08-20-raspios-buster-armhf-lite-headless.xz** image to the SD card.
 4. Download the latest RaspiKey release **raspikey-setup.*.zip** from [here](https://github.com/samartzidis/RaspiKey/releases).
-5. Copy the **raspikey-setup.*.zip** (as-is) to the the SD card. The SD card should appear on Windows as a drive named **boot**.
+5. Copy the **raspikey-setup.*.zip** to the the SD card. The SD card should appear on Windows as a drive named **boot**. Note: content of zip file need to be unzipped in **boot**.
 6. Now insert the SD card to your **Raspberry Pi Zero W** device and connect it to the PC **using the middle micro-USB port** (labelled **USB** in tiny white letters).
 7. The Pi will boot and continue its setup. This process lasts about 5-6 minutes. You will be able to tell when it's finished when the Raspberry Pi's **green led goes off** (it stays solid green during setup). Once that happens, unplug it from the PC's USB port.
 8. Your new **RaspiKey** device is now fully configured and ready to use.
